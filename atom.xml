@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Sienna-Xanthe.github.io</id>
     <title>Gridea</title>
-    <updated>2022-01-11T09:27:31.808Z</updated>
+    <updated>2022-01-11T09:35:24.129Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Sienna-Xanthe.github.io"/>
     <link rel="self" href="https://Sienna-Xanthe.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://Sienna-Xanthe.github.io/post/jvm-ru-men/">
         </link>
         <updated>2022-01-11T09:21:07.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a009e0cc-e4ee-4e0e-af08-28fed665bf78/Untitled.png" alt="Untitled" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://Sienna-Xanthe.github.io/post-images/1641893687358.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a009e0cc-e4ee-4e0e-af08-28fed665bf78/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <h1 id="1-类加载器">1. 类加载器</h1>
 <ul>
 <li><strong>启动类加载器（Bootstrap Class Loader）</strong></li>
@@ -34,7 +35,7 @@
 </li>
 </ul>
 <h1 id="2-双亲委派模型">2. 双亲委派模型</h1>
-<figure data-type="image" tabindex="2"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c16d5a6-3a89-4f45-bbd4-b5b09a7af6a3/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c16d5a6-3a89-4f45-bbd4-b5b09a7af6a3/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <ul>
 <li>
 <p><strong>工作过程</strong></p>
@@ -42,7 +43,7 @@
 </li>
 <li>
 <p><strong>类加载的过程</strong></p>
-<figure data-type="image" tabindex="3"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdc41688-6cc5-4703-97dd-49d8ffdb374d/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cdc41688-6cc5-4703-97dd-49d8ffdb374d/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <ol>
 <li>
 <p>加载 （Loading）</p>
@@ -61,7 +62,7 @@
 <li>
 <p>初始化（Initializing）</p>
 <p>执行类中定义的静态代码块，初始化静态变量为默认值</p>
-<figure data-type="image" tabindex="4"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/134d2f1a-5b31-4b8e-858d-ddb383f16cb4/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/134d2f1a-5b31-4b8e-858d-ddb383f16cb4/Untitled.png" alt="Untitled" loading="lazy"></figure>
 </li>
 </ol>
 </li>
@@ -147,7 +148,7 @@
 <ul>
 <li>
 <p><strong>基本结构</strong></p>
-<figure data-type="image" tabindex="5"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a009e0cc-e4ee-4e0e-af08-28fed665bf78/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a009e0cc-e4ee-4e0e-af08-28fed665bf78/Untitled.png" alt="Untitled" loading="lazy"></figure>
 </li>
 <li>
 <p><strong>程序计数器（Program Counter Register）</strong></p>
@@ -159,7 +160,7 @@
 <p><strong>Java虚拟机栈（Java Virtual Machine Stack）</strong></p>
 <p>它也是线程私有，它的生命周期与线程相同。它描述的是Java方法执行的线程内存模型：每个方法被执行的时候，Java虚拟机都会同步创建一个栈帧（Stack Frame）用于存储局部变量表、操作数栈、动态连接、方法出口等信息。每个方法被调用直至执行完毕的过程，就对应着一个栈帧在虚拟机栈中从入栈到出栈的过程。</p>
 <p>如下图所示：</p>
-<figure data-type="image" tabindex="6"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e37bcef-c3db-4c13-9645-9e9af18e305d/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e37bcef-c3db-4c13-9645-9e9af18e305d/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <ul>
 <li>
 <p>局部变量表</p>
@@ -199,7 +200,7 @@
 <p>方法区与Java堆一样，是各个线程共享区域，它作用于存储已被虚拟机加载的类型信息、常量、静态变量、即时编译器编译后的代码缓存等数据。对于方法区的约束除了和Java堆一样不需要连续的内存和可以选择固定大小或者可扩展外，甚至还可以选择不实现垃圾收集。这个区域的内存回收目标主要是针对常量池的回收和对类型的卸载，一般来说这个区域的回收效果是比较难令人满意，尤其是类型的卸载，条件相当苛刻，但是有时又是有必要的。</p>
 </li>
 </ul>
-<figure data-type="image" tabindex="7"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/825a9c4a-8c7b-4ad5-8fb5-e2264c940723/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/825a9c4a-8c7b-4ad5-8fb5-e2264c940723/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <h1 id="4垃圾回收机制">4.垃圾回收机制</h1>
 <ul>
 <li><strong>判断对象已经“死去”？</strong>
@@ -214,7 +215,7 @@
 <ol>
 <li>实现原理：通过一系列称为“GC Roots” 的根对象作为起始节点集，从这些节点开始，根据引用关系向下搜索，搜索过程所走过的路径称为“引用链”（Reference Chain），如果某对象不可达时，则证明此对象时不可能再被使用的。</li>
 </ol>
-<figure data-type="image" tabindex="8"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35953e1e-567a-4c19-bfb6-461cbc633da8/Untitled.png" alt="Untitled" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/35953e1e-567a-4c19-bfb6-461cbc633da8/Untitled.png" alt="Untitled" loading="lazy"></figure>
 <p>如上图所示，尽管object5、6、7 是相关联的，但是由于没有和GC Roots 相关联，不可达，因此5、6、7 将会判定为可回收对象。</p>
 <p>由此，就解决了引用计数法中的bug（循环引用的两个对象不会被回收）。当一个方法已经结束了，就不在与GC Roots 可达了，所以就被判定为可回收对象。</p>
 <ol>
